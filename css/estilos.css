@@ -1,0 +1,243 @@
+body{
+    background-color: white;
+    font-family: Arial;
+}
+#info{
+    float: center;
+    text-align: center;
+}
+#pagewrap{
+    padding: 15px;
+    width: auto;
+    margin: 40px, auto;
+}
+.logo1{
+    width: 120px;
+    float: left;
+    margin: -40px 100px;
+}
+.logo2{
+    width: 120px;
+    float: right;
+    margin: -40px 100px;
+}
+#menu{
+    text-align: center;
+}
+#content{
+    width: auto;
+    float: left;
+}
+.tipo1{
+    width:750px;
+    float: left;
+    border: solid 1px white;
+    margin: 3px;
+    padding: 3px;
+    border: solid 1px;
+}
+.tipo2{
+    width:750px;
+    float: right;
+    border: solid 1px white;
+    margin: 3px;
+    padding: 3px;
+    border: solid 1px;
+}
+.tipo3{
+    width:750px;
+    float: right;
+    border: solid 1px white;
+    margin: 3px;
+    padding: 3px;
+    border: solid 1px;
+}
+.tipo4{
+    width:750px;
+    float: left;
+    border: solid 1px white;
+    margin: 3px;
+    padding: 3px;
+    border: solid 1px;
+}
+#sidebar1{
+    width: 300px;
+    float: left;
+    margin: 15px 230px;
+    padding: 3px;
+}
+#sidebar2{
+    width: 300px;
+    float: right;
+    margin: 15px 220px;
+    padding: 3px;
+}
+#footer{
+    clear: both;
+    text-align: center;
+    height: 185px;
+}
+.imagen2{
+    width: 200px;
+    float: left;
+}
+.imagen3{
+    width: 200px;
+    margin: 5px 0px;
+    float: right;
+}
+#pagewrap, #menu, #sidebar1, #sidebar2, #footer {
+    border: solid 1px;
+}
+@media screen and (max-width: 1000px){
+    body{
+       background-color: rgb(163, 163, 163); 
+    }
+    .logo1{
+        margin: 0px 10px;
+        width: 100px;
+        float: left;
+    }
+    .logo2{
+        margin: 0px 10px;
+        width: 100px;
+        float: right;
+    }
+    .tipo2{
+        float: none;
+        text-align: left;
+    }
+    .tipo3{
+        float: none;
+        text-align: left;
+    }
+    #sidebar1{
+        float: left;
+        text-align: left;
+        margin: 15px;
+    }
+    #sidebar2{
+        float: right;
+        text-align: right;
+        margin: 15px;
+    }
+}
+@media screen and (max-width: 750px){
+    body{
+        background-color: rgb(36, 36, 36);
+    }
+    h1{
+        font-size: 20px;
+    }
+    #logo1{
+        margin: 0px 10px;
+        width: 200px;
+        float: left;
+    }
+    #logo2{
+        margin: 0px 10px;
+        width: 200px;
+        float: right;
+    }
+    .tipo1{
+        width: 600px;
+    }
+    .tipo2{
+        width: 600px;
+    }
+    .tipo3{
+        width: 600px;
+    }
+    .tipo4{
+        width: 600px;
+    }
+    #sidebar2{
+        float: left;
+        text-align: left;
+    }
+    #footer{
+        height: 200px;
+    }
+    .aceptar{
+        text-align: center;
+        float: left;
+        font-size: 15px;
+        margin: 0px 110px;
+    }
+}
+@media screen and (max-width:501px){
+    body{
+        background-color: black;
+        color: gray;
+        padding: 5px;
+    }
+    #header{
+        width: 422px;
+        float: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .subtitulo{
+        text-align: center;
+    }
+    #menu{
+        width: 422px;
+    }
+    #logo1{
+        text-align: left;
+        width: auto;
+        height: auto;
+        float: none;
+    }  
+    #logo2{
+        text-align: right;
+        width: auto;
+        height: auto;
+        float: none;
+    } 
+    #content{
+        width: 422px;
+        margin: 0.5px;
+    }
+    .tipo1{
+        width: 400px;
+    }
+    .tipo2{
+        width: 400px;
+    }
+    .tipo3{
+        width: 400px;
+    }
+    .tipo4{
+        width: 400px;
+    }
+    .imagen2{
+        width: 150px;
+        margin: 0px 20px;
+        float: left;
+        text-align: left;
+    }
+    .imagen3{
+        width: 150px;
+        margin: 10px 20px;
+        float: right;
+        text-align: right;
+    }
+    #footer{
+        height: 300px;
+    }
+    h4{
+        float: none;
+        margin: 0px 160px;
+        text-align: left;
+        font-size: 20px;
+    }
+    .aceptar{
+        float: none;
+        margin: 0px 160px;
+        text-align: left;
+    }
+}
